@@ -16,3 +16,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Home */
+
+.home_content {
+  text-align: center;
+  margin: 40px;
+}
+
+.home_content p {
+  margin: 30px;
+  font-size: 20px;
+}
+
+.home_content li {
+  font-size: 20px;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+}
+.home img {
+  width: 40%;
+  height: 50vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+/* People  */
+.content {
+  height: 800px;
+  width: 40%;
+  margin: 20px auto;
+  padding-top: 20px;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    height: 800px;
+    width: 55%;
+    margin: 20px auto;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .content {
+    height: 800px;
+    width: 65%;
+    margin: 10px auto;
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .content {
+    height: 800px;
+    width: 100%;
+    margin: 10px auto;
+    padding-top: 10px;
+  }
+}
+
+.title {
+  font-size: 30px;
+  width: 90%;
+  margin: 15px auto;
+  text-align: center;
+}

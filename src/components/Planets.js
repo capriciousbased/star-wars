@@ -3,10 +3,10 @@ import { DataGrid } from '@material-ui/data-grid';
 
 const Planets = ({data}) => {
     const columns = [
-        { field: 'name', headerName: 'Name', width: 150 },
+        { field: 'name', headerName: 'Name', width: 100 },
         { field: 'diameter', headerName: 'Diameter', width: 100 },
         { field: 'climate', headerName: 'Climate', width: 100 },
-        { field: 'gravity', headerName: 'Gravity', width: 200 },
+        { field: 'gravity', headerName: 'Gravity', width: 100 },
         
       ];
       
@@ -15,8 +15,8 @@ const Planets = ({data}) => {
     
 
     return (
-        <div style={{ height: '800px', width: '100%' }}>
-      <h3 style={{marginLeft: "15px"}}>Users Data</h3>
+        <div className="content">
+      <h3 className="title">Planet Data</h3>
       <DataGrid 
         id={Math.floor(Math.random())} 
         rows={rows} 

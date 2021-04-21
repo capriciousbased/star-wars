@@ -2,18 +2,18 @@ import React from 'react'
 import { DataGrid } from '@material-ui/data-grid';
 
 
-const People = ({data}) => {
+const Starships = ({data}) => {
     //console.log(data);
     const columns = [
         { field: 'name', headerName: 'Name', width:130 },
-        { field: 'birth_year', headerName: 'Birth Year', width:120},
-        { field: 'height', headerName: 'Height', width:100},
-        { field: 'gender', headerName: 'Gender', width:100 },
+        { field: 'length', headerName: 'Length', width:120},
+        { field: 'crew', headerName: 'Crew', width:100},
+        { field: 'passengers', headerName: 'Passengers', width:100 },
         
       ];
       
       let rows = []
-      data.forEach (people => rows.push({ id: people.name, name: people.name, birth_year : people.birth_year, height: people.height, gender:people.gender}))
+      data.forEach (people => rows.push({ id: people.name, name: people.name, length : people.length, crew: people.crew, mass: people.mass, passengers:people.passengers}))
     
     return (
     <div className="content">
@@ -31,4 +31,4 @@ const People = ({data}) => {
     )
 }
 
-export default People
+export default Starships

@@ -1,8 +1,8 @@
 .navbar {
   background: linear-gradient(
     90deg,
-    rgb(146, 123, 123) 0%,
-    rgb(196, 160, 160) 100%
+    rgb(139, 137, 137) 0%,
+    rgb(17, 17, 17) 100%
   );
   height: 70px;
   display: flex;
@@ -34,18 +34,18 @@
 }
 
 .nav-text{
-  color: #77b35b;
+  color: #e4ece0;
   text-decoration: none;
 }
 .nav-links {
   color: white;
   text-decoration: none;
   padding: 0.5rem 1rem;
-  background-color: #77b35b;
+  background-color: #a8bac2;
 }
 
 .nav-links:hover {
-  background-color: #1888ff;
+  background-color: #0a0a0a;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }

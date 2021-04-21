@@ -46,6 +46,15 @@ function Navbar() {
                Planets
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                to="/starships"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+               Starships
+              </Link>
+            </li>
           </ul>
         </nav>
       </>
