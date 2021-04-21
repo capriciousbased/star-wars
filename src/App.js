@@ -43,10 +43,10 @@ console.log("data",planets);
           <Home />
         </Route>
         <Route exact path="/people">
-          <People />
+          <People data={people}/>
         </Route>
         <Route exact path="/planets">
-          <Planets />
+          <Planets data={planets}/>
         </Route>
       </Switch>
     </Router>
